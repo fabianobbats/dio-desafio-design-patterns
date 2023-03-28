@@ -11,7 +11,6 @@ public class ArCondicionado implements Observer{
     this.sensor.register(this);
   }
 
-
   @Override
   public void update(int temperatura) {
     if(temperatura > 22 && !estaLigado) {

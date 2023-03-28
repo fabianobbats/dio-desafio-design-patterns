@@ -7,5 +7,5 @@ public interface Observable {
   void unregister(Observer observer);
 
   void notifyAllObservers();
-  
+
 }
